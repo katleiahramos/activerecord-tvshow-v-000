@@ -1,6 +1,7 @@
 class ChangeSeasonToString
-  def change 
-    
-  end 
+  def change
+    change_column :shows, :season, :date
+
+  end
 
 end
