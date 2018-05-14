@@ -21,5 +21,6 @@ class Show < ActiveRecord::Base
 
   def self.popular_shows
     shows = Show.find_by "rating > 5"
+    binding.pry
   end
 end
